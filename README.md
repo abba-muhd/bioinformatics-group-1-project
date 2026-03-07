@@ -23,3 +23,33 @@ This approach reflects real-world bioinformatics research where multiple tools a
 - Safiya Ibrahim  
 - Isah Isah Jibrin  
 - Musa Ahmed
+
+# ANA4315 – Introduction to Bioinformatics
+## Collaborative Bioinformatics Workflow Project
+
+### Project Overview
+Bioinformatics is an interdisciplinary field that combines biology, computer science, and data analysis to interpret biological data. This project demonstrates collaborative coding using GitHub and automation of computational workflows.
+
+### Assignment Description
+This project demonstrates how different programming languages can be used together in a computational workflow. Each group member writes a script that prints their information, and a Bash script automatically runs all scripts and generates a CSV dataset.
+
+### Technologies Used
+- Python
+- R
+- JavaScript
+- Perl
+- C++
+- Bash
+- GitHub
+
+### Group Members
+
+| Name | Email | GitHub | Slack | Bioinformatics Interest |
+|-----|-----|-----|-----|-----|
+| Abba Muhammad | abba@email.com | abba_muhd | @abba | Genomics |
+| Zainab Muhammad | zainab@email.com | zainabdev | @zainab | Proteomics |
+| Aliyu Sani | aliyucodes@email.com | aliyucodes | @aliyu | Computational Biology |
+| Fatima Bello | fatimabio@email.com | fatimabio | @fatima | Drug Discovery |
+| Musa Ahmed | musadev@email.com | musadev | @musa | Medical Bioinformatics |
+
+### Project Structure
