@@ -1,4 +1,4 @@
-# bioinformatics-group-project
+# bioinformatics-group-1-project
 ANA4315 Introduction to Bioinformatics Group Assignment
 
 # Brief explanation of bioinformatics
@@ -23,9 +23,6 @@ This approach reflects real-world bioinformatics research where multiple tools a
 - Safiya Ibrahim  
 - Isah Isah Jibrin  
 - Musa Ahmed
-
-# ANA4315 – Introduction to Bioinformatics
-## Collaborative Bioinformatics Workflow Project
 
 ### Project Overview
 Bioinformatics is an interdisciplinary field that combines biology, computer science, and data analysis to interpret biological data. This project demonstrates collaborative coding using GitHub and automation of computational workflows.
