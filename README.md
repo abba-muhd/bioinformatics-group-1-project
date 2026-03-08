@@ -20,9 +20,8 @@ This approach reflects real-world bioinformatics research where multiple tools a
 
 - Abba Muhammad  
 - Aminatu Abdulbaqi  
-- Safiya Ibrahim  
+- Safiya Ibrahim Suleiman  
 - Isah Isah Jibrin  
-- Musa Ahmed
 
 ### Project Overview
 Bioinformatics is an interdisciplinary field that combines biology, computer science, and data analysis to interpret biological data. This project demonstrates collaborative coding using GitHub and automation of computational workflows.
@@ -33,7 +32,7 @@ This project demonstrates how different programming languages can be used togeth
 ### Technologies Used
 - Python
 - R
-- JavaScript
+- Java
 - Perl
 - C++
 - Bash
@@ -43,10 +42,10 @@ This project demonstrates how different programming languages can be used togeth
 
 | Name | Email | GitHub | Slack | Bioinformatics Interest |
 |-----|-----|-----|-----|-----|
-| Abba Muhammad | abba@email.com | abba_muhd | @abba | Genomics |
-| Zainab Muhammad | zainab@email.com | zainabdev | @zainab | Proteomics |
-| Aliyu Sani | aliyucodes@email.com | aliyucodes | @aliyu | Computational Biology |
-| Fatima Bello | fatimabio@email.com | fatimabio | @fatima | Drug Discovery |
+| Abba Muhammad | muhammadabba459@gmail.com | abba-muhd | @abba-muhd | Genomics |
+| Aminatu Abdulbaqi | mindulmimimi@gmail.com | mindulmimimi-stack | @mindulmimimi | Proteomics |
+| Safiya Ibrahim Suleiman | safeeyahibrahim95@gmail.com | safeeyaibrahim95-del | @safiyaibrahim | Computational Biology |
+| Isah Isah Jibrin | fatimabio@email.com | fatimabio | @fatima | Drug Discovery |
 | Musa Ahmed | musadev@email.com | musadev | @musa | Medical Bioinformatics |
 
 ### Project Structure
