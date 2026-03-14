@@ -46,6 +46,6 @@ This project demonstrates how different programming languages can be used togeth
 | Aminatu Abdulbaqi | mindulmimimi@gmail.com | mindulmimimi-stack | @mindulmimimi | Proteomics |
 | Safiya Ibrahim Suleiman | safeeyahibrahim95@gmail.com | safeeyaibrahim95-del | @safiyaibrahim | Computational Biology |
 | Isah Isah Jibrin | isahwaleed2c@gmail.com | Isahjibrin212 | @isahjibrin | Drug Discovery |
-| Musa Ahmed | musadev@email.com | musadev | @musa | Medical Bioinformatics |
+| Aishatu Yakubu Musa | musadev@email.com | musadev | @musa | Medical Bioinformatics |
 
 ### Project Structure
