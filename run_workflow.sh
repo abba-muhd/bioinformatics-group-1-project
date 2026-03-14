@@ -27,11 +27,4 @@ do
     perl "$file" >> data/output.csv
 done
 
-# Compile and run C++ scripts
-for file in scripts/*.cpp
-do
-    g++ "$file" -o temp_program
-    ./temp_program >> data/output.csv
-done
-
 echo "CSV file generated successfully!"
