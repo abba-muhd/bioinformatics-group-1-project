@@ -21,7 +21,8 @@ This approach reflects real-world bioinformatics research where multiple tools a
 - Abba Muhammad  
 - Aminatu Abdulbaqi  
 - Safiya Ibrahim Suleiman  
-- Isah Isah Jibrin  
+- Isah Isah Jibrin 
+- Aishatu Yakubu Musa 
 
 ### Project Overview
 Bioinformatics is an interdisciplinary field that combines biology, computer science, and data analysis to interpret biological data. This project demonstrates collaborative coding using GitHub and automation of computational workflows.
