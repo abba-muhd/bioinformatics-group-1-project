@@ -1,30 +1,26 @@
 #!/bin/bash
 
+# Create output folder
+mkdir -p output
+
 # Create CSV header
-echo "Name,Email,Slack Username,Area of Interest" > data/output.csv
+echo "Name,Email,Slack Username,Area of Interest" > output/results.csv
 
-# Run Python scripts
-for file in scripts/*.py
-do
-    python "$file" >> data/output.csv
-done
+# Run Python script
+python scripts/Abba.py | paste -sd "," >> output/results.csv
 
-# Run R scripts
-for file in scripts/*.R
-do
-    Rscript "$file" >> data/output.csv
-done
+# Run R script
+Rscript scripts/Amina.R | paste -sd "," >> output/results.csv
 
-# Run JavaScript scripts
-for file in scripts/*.js
-do
-    node "$file" >> data/output.csv
-done
+# Run Java script
+javac scripts/Safiya.java
+java -cp scripts SafiyyaIbrahim | paste -sd "," >> output/results.csv
 
-# Run Perl scripts
-for file in scripts/*.pl
-do
-    perl "$file" >> data/output.csv
-done
+# Run Perl script
+perl scripts/Isah.pl | paste -sd "," >> output/results.csv
 
-echo "CSV file generated successfully!"
+# Run JavaScript script
+node scripts/Aishatu.js | paste -sd "," >> output/results.csv
+
+echo "All scripts executed successfully!"
+echo "CSV file saved in output/results.csv"
