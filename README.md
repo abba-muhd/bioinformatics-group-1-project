@@ -35,7 +35,7 @@ This project demonstrates how different programming languages can be used togeth
 - R
 - Java
 - Perl
-- C++
+- JavaScript
 - Bash
 - GitHub
 
@@ -47,6 +47,6 @@ This project demonstrates how different programming languages can be used togeth
 | Aminatu Abdulbaqi | mindulmimimi@gmail.com | mindulmimimi-stack | @mindulmimimi | Proteomics |
 | Safiya Ibrahim Suleiman | safeeyahibrahim95@gmail.com | safeeyaibrahim95-del | @safiyaibrahim | Computational Biology |
 | Isah Isah Jibrin | isahwaleed2c@gmail.com | Isahjibrin212 | @isahjibrin | Drug Discovery |
-| Aishatu Yakubu Musa | musadev@email.com | musadev | @musa | Medical Bioinformatics |
+| Aishatu Yakubu Musa | aishatuyakubumusa12@gmail.com | aishatuyakubu | @aishatuyakubu | Medical Bioinformatics |
 
 ### Project Structure
