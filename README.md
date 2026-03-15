@@ -49,10 +49,10 @@ The Bash workflow script performs the following tasks: it executes each script w
 | Name | GitHub | Slack Username | Email | Area of Interest | Programming Language |
 |-----|--------|---------------|------|------------------|----------------------|
 | Abba Muhammad | abba-muhd | @abba-muhd | muhammadabba459@gmail.com | Genomics | Python |
-| Aminatu Abdulbaqi | — | @mindulmimimi-stack | mindulmimimi@gmail.com | Proteomics | R |
-| Safiya Ibrahim Suleiman | — | @safeeyaibrahim95-del | safeeyahibrahim95@gmail.com | Computational Biology | Java |
-| Isah Isah Jibrin | — | @isah-jibrin | isahwaleed2c.com | Bioinformatics | Perl |
-| Aishatu Yakubu Musa | — | — | aishatuyakubumusa12@gmail.com | — | JavaScript |
+| Aminatu Abdulbaqi | mindulmimimi | @mindulmimimi-stack | mindulmimimi@gmail.com | Proteomics | R |
+| Safiya Ibrahim Suleiman | safeeyaibrahim95-del | @safeeyaibrahim95-del | safeeyahibrahim95@gmail.com | Computational Biology | Java |
+| Isah Isah Jibrin | isah-jibrin | @isah-jibrin | isahwaleed2c.com | Bioinformatics | Perl |
+| Aishatu Yakubu Musa | aishatuyakubu | 	@aishatuyakubu | aishatuyakubumusa12@gmail.com | Medical Bioinformatics | JavaScript |
 ## An example of the generated CSV dataset produced by the workflow is shown below:
 
 | Name | Email | Slack Username | Area of Interest |
