@@ -4,9 +4,24 @@
 
 This project was developed as part of the **ANA4315 – Introduction to Bioinformatics** course practical assignment. Bioinformatics integrates biology, computer science, and data analysis to interpret biological data. Modern bioinformatics research relies heavily on computational tools, programming languages, version control systems, and automated workflows to ensure reproducibility and efficient data analysis.
 
-The aim of this project is to demonstrate a simple collaborative computational workflow using multiple programming languages and GitHub. Each member of the group implemented a script in a different programming language that prints their personal information, including their full name, email address, Slack username, and area of interest in bioinformatics. These scripts were then integrated into a Bash automation workflow which executes all scripts and combines their outputs into a single structured CSV file.
+### Project Objective
 
-The repository is organized in a clear structure to allow easy navigation and reproducibility of the workflow. All individual scripts are stored in the **scripts** directory while the generated dataset is stored in the **output** directory. The Bash automation script is located in the root directory of the repository and is responsible for executing all scripts and generating the final dataset.
+The aim of this project is to demonstrate a simple collaborative computational workflow using multiple programming languages and GitHub. Each member of the group implemented a script in a different programming language that prints their personal information, including:
+
+- Full Name  
+- Email Address  
+- Slack Username  
+- Area of Interest in Bioinformatics  
+
+These scripts were then integrated into a **Bash automation workflow** which executes all scripts and combines their outputs into a single structured **CSV file**.
+
+### Repository Organization
+
+The repository is organized in a clear structure to allow easy navigation and reproducibility of the workflow.  
+
+- All individual scripts are stored in the **scripts** directory.  
+- The generated dataset is stored in the **output** directory.  
+- The **Bash automation script** is located in the root directory of the repository and is responsible for executing all scripts and generating the final dataset.
 
 ## Repository structure:
 
@@ -31,24 +46,22 @@ The Bash workflow script performs the following tasks: it executes each script w
 
 ## The project group members and their contributions are listed below.
 
-Abba Muhammad – GitHub: abba-muhd – Slack: @abba-muhd – Email: muhammadabba459@gmail.com – Area of Interest: Genomics – Programming Language Used: Python.
-
-Aminatu Abdulbaqi – Slack: @mindulmimimi-stack – Email: mindulmimimi@gmail.com – Area of Interest: Proteomics – Programming Language Used: R.
-
-Safiya Ibrahim Suleiman – Slack: @safeeyaibrahim95-del – Email: safeeyahibrahim95@gmail.com – Area of Interest: Computational Biology – Programming Language Used: Java.
-
-Isah Isah Jibrin – Slack: @isah-jibrin – Email: isahwaleed2c.com – Area of Interest: Bioinformatics – Programming Language Used: Perl.
-
-Aishatu Yakubu Musa – Email: aishatuyakubumusa12@gmail.com – Programming Language Used: JavaScript.
-
+| Name | GitHub | Slack Username | Email | Area of Interest | Programming Language |
+|-----|--------|---------------|------|------------------|----------------------|
+| Abba Muhammad | abba-muhd | @abba-muhd | muhammadabba459@gmail.com | Genomics | Python |
+| Aminatu Abdulbaqi | — | @mindulmimimi-stack | mindulmimimi@gmail.com | Proteomics | R |
+| Safiya Ibrahim Suleiman | — | @safeeyaibrahim95-del | safeeyahibrahim95@gmail.com | Computational Biology | Java |
+| Isah Isah Jibrin | — | @isah-jibrin | isahwaleed2c.com | Bioinformatics | Perl |
+| Aishatu Yakubu Musa | — | — | aishatuyakubumusa12@gmail.com | — | JavaScript |
 ## An example of the generated CSV dataset produced by the workflow is shown below:
 
-Name,Email,Slack Username,Area of Interest
-Abba Muhammad,muhammadabba459@gmail.com,@abba-muhd,Genomics
-Aminatu Abdulbaqi,mindulmimimi@gmail.com,@mindulmimimi,Proteomics
-Safiyya Ibrahim Suleiman,safeeyahibrahim95@gmail.com,@safeeyaibrahim95-del,Computational Biology
-Isah Isah Jibrin,isahwaleed2c@gmail.com,@isah-jibrin,Drug Discovery
-Aishatu Yakubu Musa,aishatuyakubumusa12@gmail.com,@aishatuyakubu,Medical Bioinformatics
+| Name | Email | Slack Username | Area of Interest |
+|------|-------|---------------|------------------|
+| Abba Muhammad | muhammadabba459@gmail.com | @abba-muhd | Genomics |
+| Aminatu Abdulbaqi | mindulmimimi@gmail.com | @mindulmimimi | Proteomics |
+| Safiyya Ibrahim Suleiman | safeeyahibrahim95@gmail.com | @safeeyaibrahim95-del | Computational Biology |
+| Isah Isah Jibrin | isahwaleed2c@gmail.com | @isah-jibrin | Drug Discovery |
+| Aishatu Yakubu Musa | aishatuyakubumusa12@gmail.com | @aishatuyakubu | Medical Bioinformatics |
 
 To run the workflow on a local machine, first clone the repository from GitHub using the command:
 
