@@ -14,7 +14,7 @@ Rscript scripts/Amina.R | paste -sd "," >> output/results.csv
 
 # Run Java script
 javac scripts/Safiya.java
-java -cp scripts SafiyyaIbrahim | paste -sd "," >> output/results.csv
+java -cp scripts Safiya | paste -sd "," >> output/results.csv
 
 # Run Perl script
 perl scripts/Isah.pl | paste -sd "," >> output/results.csv
