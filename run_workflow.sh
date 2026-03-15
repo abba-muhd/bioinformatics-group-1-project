@@ -7,7 +7,7 @@ mkdir -p output
 echo "Name,Email,Slack Username,Area of Interest" > output/results.csv
 
 # Run Python script
-python scripts/Abba.py | paste -sd "," >> output/results.csv
+python scripts/ | paste -sd "," >> output/results.csv
 
 # Run R script
 Rscript scripts/Amina.R | paste -sd "," >> output/results.csv

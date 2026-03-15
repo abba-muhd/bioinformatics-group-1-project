@@ -1,52 +1,71 @@
-# bioinformatics-group-1-project
-ANA4315 Introduction to Bioinformatics Group Assignment
+# ANA4315 – Introduction to Bioinformatics Continuous Assessment 1
 
-# Brief explanation of bioinformatics
-Bioinformatics is the use of computational tools to analyze biological data such as DNA sequences, proteins, and genomes.
+## Bioinformatics Workflow Automation Project
 
-## Description of the Assignment
+This project was developed as part of the **ANA4315 – Introduction to Bioinformatics** course practical assignment. Bioinformatics integrates biology, computer science, and data analysis to interpret biological data. Modern bioinformatics research relies heavily on computational tools, programming languages, version control systems, and automated workflows to ensure reproducibility and efficient data analysis.
 
-This project is part of the ANA4315 – Introduction to Bioinformatics course practical assignment. The aim of the assignment is to demonstrate how computational tools and programming can be used in bioinformatics workflows.
+The aim of this project is to demonstrate a simple collaborative computational workflow using multiple programming languages and GitHub. Each member of the group implemented a script in a different programming language that prints their personal information, including their full name, email address, Slack username, and area of interest in bioinformatics. These scripts were then integrated into a Bash automation workflow which executes all scripts and combines their outputs into a single structured CSV file.
 
-The project focuses on:
+The repository is organized in a clear structure to allow easy navigation and reproducibility of the workflow. All individual scripts are stored in the **scripts** directory while the generated dataset is stored in the **output** directory. The Bash automation script is located in the root directory of the repository and is responsible for executing all scripts and generating the final dataset.
 
-- **Collaborative coding:** Group members work together using GitHub to manage code, track changes, and contribute scripts to a shared repository.
-- **Scripting:** Each member writes a script in a different programming language commonly used in bioinformatics to print their personal and academic information.
-- **Workflow automation:** A Bash script is used to automatically execute all the scripts and collect their outputs into a structured CSV file for further computational analysis.
+Repository structure:
 
-This approach reflects real-world bioinformatics research where multiple tools and programming languages are integrated into automated workflows.
+bioinformatics-group-1-project  
+│  
+├── scripts  
+│   ├── Abba.py  
+│   ├── Aminatu.R  
+│   ├── Safiya.java  
+│   ├── Isah.pl  
+│   └── Aishatu.js  
+│  
+├── output  
+│   └── results.csv  
+│  
+├── run_workflow.sh  
+└── README.md  
 
-## Group Members
+This project demonstrates the use of multiple programming languages commonly used in computational biology and bioinformatics, including **Python, R, Java, Perl, and JavaScript**. Each language script prints the contributor’s details in a specified order so that the workflow can collect and format the outputs correctly.
 
-- Abba Muhammad  
-- Aminatu Abdulbaqi  
-- Safiya Ibrahim Suleiman  
-- Isah Isah Jibrin 
-- Aishatu Yakubu Musa 
+The Bash workflow script performs the following tasks: it executes each script written by group members, captures the outputs produced by the scripts, formats the outputs into a comma-separated structure, and combines the results into a single CSV dataset. The generated CSV file contains the following columns: **Name, Email, Slack Username, and Area of Interest**. The final dataset is automatically generated and saved in the output folder as **results.csv**.
 
-### Project Overview
-Bioinformatics is an interdisciplinary field that combines biology, computer science, and data analysis to interpret biological data. This project demonstrates collaborative coding using GitHub and automation of computational workflows.
+The project group members and their contributions are listed below.
 
-### Assignment Description
-This project demonstrates how different programming languages can be used together in a computational workflow. Each group member writes a script that prints their information, and a Bash script automatically runs all scripts and generates a CSV dataset.
+Abba Muhammad – GitHub: abba-muhd – Slack: @abba-muhd – Email: muhammadabba459@gmail.com – Area of Interest: Genomics – Programming Language Used: Python.
 
-### Technologies Used
-- Python
-- R
-- Java
-- Perl
-- JavaScript
-- Bash
-- GitHub
+Aminatu Abdulbaqi – Slack: @mindulmimimi-stack – Email: mindulmimimi@gmail.com – Area of Interest: Proteomics – Programming Language Used: R.
 
-### Group Members
+Safiya Ibrahim Suleiman – Slack: @safeeyaibrahim95-del – Email: safeeyahibrahim95@gmail.com – Area of Interest: Computational Biology – Programming Language Used: Java.
 
-| Name | Email | GitHub | Slack | Bioinformatics Interest |
-|-----|-----|-----|-----|-----|
-| Abba Muhammad | muhammadabba459@gmail.com | abba-muhd | @abba-muhd | Genomics |
-| Aminatu Abdulbaqi | mindulmimimi@gmail.com | mindulmimimi-stack | @mindulmimimi | Proteomics |
-| Safiya Ibrahim Suleiman | safeeyahibrahim95@gmail.com | safeeyaibrahim95-del | @safiyaibrahim | Computational Biology |
-| Isah Isah Jibrin | isahwaleed2c@gmail.com | Isahjibrin212 | @isahjibrin | Drug Discovery |
-| Aishatu Yakubu Musa | aishatuyakubumusa12@gmail.com | aishatuyakubu | @aishatuyakubu | Medical Bioinformatics |
+Isah – Slack: @isah-jibrin – Email: isahwaleed2c.com – Area of Interest: Bioinformatics – Programming Language Used: Perl.
 
-### Project Structure
+Aishatu Yakubu Musa – Email: aishatuyakubumusa12@gmail.com – Programming Language Used: JavaScript.
+
+An example of the generated CSV dataset produced by the workflow is shown below:
+
+Name,Email,Slack Username,Area of Interest  
+Abba Muhammad,muhammadabba459@gmail.com,@abba-muhd,Genomics  
+Aminatu Abdulbaqi,mindulmimimi@gmail.com,@mindulmimimi-stack,Proteomics  
+Safiya Ibrahim Suleiman,safeeyahibrahim95@gmail.com,@safeeyaibrahim95-del,ComputationalBiology  
+
+To run the workflow on a local machine, first clone the repository from GitHub using the command:
+
+git clone https://github.com/abba-muhd/bioinformatics-group-1-project.git
+
+Then navigate to the project directory:
+
+cd bioinformatics-group-1-project
+
+Finally, run the Bash workflow script:
+
+bash run_workflow.sh
+
+After executing the workflow, the generated CSV dataset will appear in the **output** directory of the repository.
+
+This project demonstrates collaborative coding practices, multi-language scripting, version control using Git and GitHub, and workflow automation using Bash scripting, which are essential skills in modern bioinformatics research.
+
+Course: ANA4315 – Introduction to Bioinformatics  
+Instructor: Dr. Umar Ahmad  
+Department of Anatomy  
+Faculty of Basic Medical Sciences  
+Institution: SAZU
