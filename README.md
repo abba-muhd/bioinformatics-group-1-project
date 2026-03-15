@@ -43,10 +43,10 @@ Aishatu Yakubu Musa – Email: aishatuyakubumusa12@gmail.com – Programming Lan
 
 ## An example of the generated CSV dataset produced by the workflow is shown below:
 
-Name,Email,Slack Username,Area of Interest  
-Abba Muhammad,muhammadabba459@gmail.com,@abba-muhd,Genomics  
-Aminatu Abdulbaqi,mindulmimimi@gmail.com,@mindulmimimi-stack,Proteomics  
-Safiyya Ibrahim Suleiman,safeeyahibrahim95@gmail.com,@safeeyaibrahim95-del,Computational Biology 
+Name,Email,Slack Username,Area of Interest
+Abba Muhammad,muhammadabba459@gmail.com,@abba-muhd,Genomics
+Aminatu Abdulbaqi,mindulmimimi@gmail.com,@mindulmimimi,Proteomics
+Safiyya Ibrahim Suleiman,safeeyahibrahim95@gmail.com,@safeeyaibrahim95-del,Computational Biology
 Isah Isah Jibrin,isahwaleed2c@gmail.com,@isah-jibrin,Drug Discovery
 Aishatu Yakubu Musa,aishatuyakubumusa12@gmail.com,@aishatuyakubu,Medical Bioinformatics
 
