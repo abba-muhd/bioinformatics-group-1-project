@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class Safiyya_Ibrahim_Sulaiman {
+public class Safiya extends {
     
     public static void readCSV(String filePath) {
         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
