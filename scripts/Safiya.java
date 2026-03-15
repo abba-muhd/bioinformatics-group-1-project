@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class Safiyya_Ibrahim_Sulaiman {
+public class Safiya {
     
     public static void readCSV(String filePath) {
         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
@@ -20,7 +20,7 @@ public class Safiyya_Ibrahim_Sulaiman {
     }
     
     public static void main(String[] args) {
-        String name = "Safiyya_Ibrahim_Suleiman";
+        String name = "Safiya";
         String email = "safeeyahibrahim95@gmail.com";
         String slack = "@safeeyaibrahim95-del";
         String interest = "Computational Biology";
