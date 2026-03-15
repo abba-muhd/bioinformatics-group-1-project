@@ -51,7 +51,7 @@ The Bash workflow script performs the following tasks: it executes each script w
 | Abba Muhammad | abba-muhd | @abba-muhd | muhammadabba459@gmail.com | Genomics | Python |
 | Aminatu Abdulbaqi | mindulmimimi | @mindulmimimi-stack | mindulmimimi@gmail.com | Proteomics | R |
 | Safiya Ibrahim Suleiman | safeeyaibrahim95-del | @safeeyaibrahim95-del | safeeyahibrahim95@gmail.com | Computational Biology | Java |
-| Isah Isah Jibrin | isah-jibrin | @isah-jibrin | isahwaleed2c.com | Bioinformatics | Perl |
+| Isah Isah Jibrin | isah-jibrin | @isah-jibrin | isahwaleed2c@gmail.com | Bioinformatics | Perl |
 | Aishatu Yakubu Musa | aishatuyakubu | 	@aishatuyakubu | aishatuyakubumusa12@gmail.com | Medical Bioinformatics | JavaScript |
 ## An example of the generated CSV dataset produced by the workflow is shown below:
 
