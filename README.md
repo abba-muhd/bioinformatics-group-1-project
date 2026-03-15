@@ -8,7 +8,7 @@ The aim of this project is to demonstrate a simple collaborative computational w
 
 The repository is organized in a clear structure to allow easy navigation and reproducibility of the workflow. All individual scripts are stored in the **scripts** directory while the generated dataset is stored in the **output** directory. The Bash automation script is located in the root directory of the repository and is responsible for executing all scripts and generating the final dataset.
 
-Repository structure:
+## Repository structure:
 
 bioinformatics-group-1-project  
 │  
@@ -29,7 +29,7 @@ This project demonstrates the use of multiple programming languages commonly use
 
 The Bash workflow script performs the following tasks: it executes each script written by group members, captures the outputs produced by the scripts, formats the outputs into a comma-separated structure, and combines the results into a single CSV dataset. The generated CSV file contains the following columns: **Name, Email, Slack Username, and Area of Interest**. The final dataset is automatically generated and saved in the output folder as **results.csv**.
 
-The project group members and their contributions are listed below.
+## The project group members and their contributions are listed below.
 
 Abba Muhammad – GitHub: abba-muhd – Slack: @abba-muhd – Email: muhammadabba459@gmail.com – Area of Interest: Genomics – Programming Language Used: Python.
 
@@ -37,16 +37,18 @@ Aminatu Abdulbaqi – Slack: @mindulmimimi-stack – Email: mindulmimimi@gmail.c
 
 Safiya Ibrahim Suleiman – Slack: @safeeyaibrahim95-del – Email: safeeyahibrahim95@gmail.com – Area of Interest: Computational Biology – Programming Language Used: Java.
 
-Isah – Slack: @isah-jibrin – Email: isahwaleed2c.com – Area of Interest: Bioinformatics – Programming Language Used: Perl.
+Isah Isah Jibrin – Slack: @isah-jibrin – Email: isahwaleed2c.com – Area of Interest: Bioinformatics – Programming Language Used: Perl.
 
 Aishatu Yakubu Musa – Email: aishatuyakubumusa12@gmail.com – Programming Language Used: JavaScript.
 
-An example of the generated CSV dataset produced by the workflow is shown below:
+## An example of the generated CSV dataset produced by the workflow is shown below:
 
 Name,Email,Slack Username,Area of Interest  
 Abba Muhammad,muhammadabba459@gmail.com,@abba-muhd,Genomics  
 Aminatu Abdulbaqi,mindulmimimi@gmail.com,@mindulmimimi-stack,Proteomics  
-Safiya Ibrahim Suleiman,safeeyahibrahim95@gmail.com,@safeeyaibrahim95-del,ComputationalBiology  
+Safiyya Ibrahim Suleiman,safeeyahibrahim95@gmail.com,@safeeyaibrahim95-del,Computational Biology 
+Isah Isah Jibrin,isahwaleed2c@gmail.com,@isah-jibrin,Drug Discovery
+Aishatu Yakubu Musa,aishatuyakubumusa12@gmail.com,@aishatuyakubu,Medical Bioinformatics
 
 To run the workflow on a local machine, first clone the repository from GitHub using the command:
 
